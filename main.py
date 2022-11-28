@@ -288,7 +288,7 @@ def print_user_stats(message_dict, audio_messages, image_messages, video_message
 
     print(f"Total Number of Messages: {total_message_count}")
     print(f"Total Number of Audio Messages: {total_audio_message_count}")
-    print(f"Total Number of Image Messages: {total_video_message_count}")
+    print(f"Total Number of Image Messages: {total_image_message_count}")
     print(f"Total Number of Video Messages: {total_video_message_count}\n")
     
 def process_text_messages(text_messages):
