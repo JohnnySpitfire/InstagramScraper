@@ -121,8 +121,8 @@ def login(driver):
     driver.get("https://www.instagram.com/direct/t/340282366841710300949128299951790614236/")
     wait_for_response(driver, "ID", "loginForm")
     login_form = driver.find_element(By.TAG_NAME, "form")
-    login_form.find_element(By.NAME, "username").send_keys("ben_john555")
-    login_form.find_element(By.NAME, "password").send_keys("1Spitfire1")
+    login_form.find_element(By.NAME, "username").send_keys("")
+    login_form.find_element(By.NAME, "password").send_keys("")
     login_form.submit()
     clear_notification_popups(driver)
     LOGGING_IN, LOADING_ANIMATION_ACTIVE = False, False
